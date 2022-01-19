@@ -1,21 +1,37 @@
 body {
     font-family: 'Open Sans', sans-serif;
-}
+    font-size: 20px;
 
-.barra {
-    background-color: #7138ff;
-    color: black;
+    min-height: 75rem;
+    padding-top: 4.5rem;
 }
 
 .secao {
-    width: 80%;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 50px;
 }
 
 .titulo-secao {
     padding-bottom: 20px;
 }
 
-.barra-progresso {
-    width: 80%;
+.formacoes {
+    margin-bottom: 10px;
+}
+
+.habilidade {
+    margin-bottom: 10px;
+}
+
+.texto-barra {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-contato {
+    margin-top: 10px;
+}
+
+.form-contato-input {
+    margin-bottom: 15px;
 }

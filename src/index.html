@@ -14,43 +14,33 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-12 barra">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Vinícius Lopes</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#">Vinícius Lopes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#sobre-mim">Sobre Mim</a>
+                            <a class="nav-link" href="#sobre-mim">Sobre Mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#formacao">Formação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experiencia">Experiência</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#conhecimentos">Conhecimentos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Habilidades</a>
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Experiências</a>
+                            <a class="nav-link" href="#contato">Contato</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
-                        </li>
-                        <!--
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Outros
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    -->
                     </ul>
                 </div>
             </div>
@@ -69,6 +59,85 @@
                     Estágio ou desenvolvimento nível Junior, para que possa colocar meu conhecimentos em prática e
                     iniciar
                     minha carreira na área de Tecnologia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="formacao" class="container secao">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="h1 text-center titulo-secao">FORMAÇÃO</h1>
+                <div class=container>
+                    <div class="row formacoes">
+                        <div class="col-lg-5">
+                            <h1 class="h3"><strong>ETEC Adolpho Berezin | Técnico em Informática</strong></h1>
+                            <p class="lead"><u>Agosto de 2021 à Dezembro de 2022</u></p>
+                        </div>
+                        <div class="col-lg-7">
+                            <h1 class="h4"><strong>Conteudos Abordados</strong></h1>
+                            <ul class="list-style">
+                                <li>Pacote Office e Aplicações</li>
+                                <li>Desenvolvimento de Sitemas em C#</li>
+                                <li>Hardware</li>
+                                <li>Sistemas de Informação</li>
+                                <li>Suporte Técnico</li>
+                                <li>Eletrônica</li>
+                                <li>Redes de Computadores</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row formacoes">
+                        <div class="col-lg-5">
+                            <h1 class="h3"><strong>FATEC Praia Grande | Análise e Desenvolvimento de Sistemas</strong>
+                            </h1>
+                            <p class="lead"><u>Janeiro de 2017 à Dezembro de 2019</u></p>
+                        </div>
+                        <div class="col-lg-7">
+                            <h1 class="h4"><strong>Conteudos Abordados</strong></h1>
+                            <ul class="list-style">
+                                <li>Pacote Office e Aplicações</li>
+                                <li>Contabilidade</li>
+                                <li>Administração</li>
+                                <li>Hardware</li>
+                                <li>Sistemas de Informação</li>
+                                <li>Redes de Computadores</li>
+                                <li>Análise de Sistemas</li>
+                                <li>Modelagem de Sistemas</li>
+                                <li>Sistemas Operacionais (Linux e Windows)</li>
+                                <li>Bancos de Dados Oracle e MySQL</li>
+                                <li>HTML, CSS, JavaScript, Java, C++, Ioinic 3</li>
+                                <li>Inteligência Artificial</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia" class="container secao">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="h1 text-center titulo-secao">EXPERIÊNCIA</h1>
+                <div class=container>
+                    <div class="row formacoes">
+                        <div class="col-lg-5">
+                            <h1 class="h3"><strong>QUEST Informática | Estágio em Suporte Técnico</strong></h1>
+                            <p class="lead"><u>Janeiro de 2018 à Julho de 2018</u></p>
+                        </div>
+                        <div class="col-lg-7">
+                            <h1 class="h4"><strong>Tarefas Efetuadas</strong></h1>
+                            <ul class="list-style">
+                                <li>Resolução de Problemas</li>
+                                <li>Suporte e Manutenção de Computadores</li>
+                                <li>Acompanhamento do Funcionamento de Computadores</li>
+                                <li>Suporte e Auxílio a Cursos Profissionalizantes relacionados aTecnologia (Sistemas
+                                    Windows, 3D, Desenvolvimento de Jogos,etc)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -98,9 +167,159 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="h1 text-center titulo-secao">HABILIDADES</h1>
+                <div class="container">
+                    <div class="row habilidade">
+                        <h1 class="col-md-2 h5">Inglês</h1>
+                        <div class="col-md-10 progress" style="height: 30px;">
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger texto-barra"
+                                role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 25%;">BÁSICO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning texto-barra"
+                                role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 25%;">INTERMEDIÁRIO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-success texto-barra"
+                                role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 25%;">AVANÇADO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-info texto-barra"
+                                role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 0%;">DOMÍNIO</div>
+                        </div>
+                    </div>
+                    <div class="row habilidade">
+                        <h1 class="col-md-2 h5">HTML</h1>
+                        <div class="col-md-10 progress" style="height: 30px;">
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger texto-barra"
+                                role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 25%;">BÁSICO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning texto-barra"
+                                role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 25%;">INTERMEDIÁRIO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-success texto-barra"
+                                role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                                style="width:0%;">AVANÇADO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-info texto-barra"
+                                role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 0%;">DOMÍNIO</div>
+                        </div>
+                    </div>
+                    <div class="row habilidade">
+                        <h1 class="col-md-2 h5">CSS</h1>
+                        <div class="col-md-10 progress" style="height: 30px;">
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger texto-barra"
+                                role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 25%;">BÁSICO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning texto-barra"
+                                role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 25%;">INTERMEDIÁRIO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-success texto-barra"
+                                role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                                style="width:0%;">AVANÇADO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-info texto-barra"
+                                role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 0%;">DOMÍNIO</div>
+                        </div>
+                    </div>
+                    <div class="row habilidade">
+                        <h1 class="col-md-2 h5">JavaScript</h1>
+                        <div class="col-md-10 progress" style="height: 30px;">
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger texto-barra"
+                                role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 25%;">BÁSICO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning texto-barra"
+                                role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 25%;">INTERMEDIÁRIO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-success texto-barra"
+                                role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                                style="width:0%;">AVANÇADO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-info texto-barra"
+                                role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 0%;">DOMÍNIO</div>
+                        </div>
+                    </div>
+                    <div class="row habilidade">
+                        <h1 class="col-md-2 h5">.NET C#</h1>
+                        <div class="col-md-10 progress" style="height: 30px;">
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger texto-barra"
+                                role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 25%;">BÁSICO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning texto-barra"
+                                role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 25%;">INTERMEDIÁRIO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-success texto-barra"
+                                role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                                style="width:0%;">AVANÇADO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-info texto-barra"
+                                role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 0%;">DOMÍNIO</div>
+                        </div>
+                    </div>
+                    <div class="row habilidade">
+                        <h1 class="col-md-2 h5">Python</h1>
+                        <div class="col-md-10 progress" style="height: 30px;">
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger texto-barra"
+                                role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 25%;">BÁSICO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning texto-barra"
+                                role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 25%;">INTERMEDIÁRIO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-success texto-barra"
+                                role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                                style="width:0%;">AVANÇADO</div>
+                            <div class="progress-bar progress-bar-animated progress-bar-striped bg-info texto-barra"
+                                role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+                                style="width: 0%;">DOMÍNIO</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+    <section id="contato" class="container secao text-center">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="h1 text-center titulo-secao">Contato</h1>
+                <form class="form-horizontal form-contato" action="mailto:vinicioslop7@hotmail.com">
+                    <div class="mb-6 form-floating form-contato-input">
+                        <input type="text" class="form-control" id="floatingName" placeholder="Nome">
+                        <label for="floatingName">Informe seu nome</label>
+                    </div>
+                    <div class="mb-6 form-floating form-contato-input">
+                        <input type="email" class="form-control" id="floatingEmail" placeholder="email@exemplo.com">
+                        <label for="floatingEmail">Endereço de e-mail</label>
+                    </div>
+                    <div class="mb-6 form-floating form-contato-input">
+                        <textarea class="form-control" id="floatingTextarea" style="height: 100px"></textarea>
+                        <label for="floatingTextarea">Escreva sua mensagem aqui</label>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <footer>
+            <div class="d-flex justify-content-between py-4 my-4 border-top">
+                <p><strong>&copy; 2022, Vinícius Lopes. Todos os direitos reservados.</strong></p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-dark" target="_blank"
+                            href="https://www.instagram.com/viniciusl.21/"><svg class="bi" width="24" height="24">
+                                <img src="icons/instagram.svg" alt="Ícone do Instagram">
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-dark" target="_blank"
+                            href="https://www.linkedin.com/in/viniciuslopeslima/"><svg class="bi" width="24"
+                                height="24">
+                                <img src="icons/linkedin.svg" alt="Ícone do LinkedIn">
+                            </svg></a></li>
+                    <li class="ms-3"><a class="link-dark" target="_blank" href="https://github.com/vinicioslop"><svg
+                                class="bi" width="24" height="24">
+                                <img src="icons/github.svg" alt="Ícone do GitHub">
+                            </svg></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
